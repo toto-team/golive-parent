@@ -268,5 +268,12 @@
 
     </build>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub toto-team Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/toto-team</url>
+        </repository>
+    </distributionManagement>
 
 </project>
